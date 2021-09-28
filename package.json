@@ -1,7 +1,7 @@
 {
   "name": "@tranducduong1994/shopping-list-miniapp",
   "description": "shopping-list-miniapp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "scripts": {
     "android": "react-native run-android",
