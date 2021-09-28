@@ -11,14 +11,15 @@
     "lint": "eslint ."
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tranducduong1994/shopping-list-miniapp.git" 
+    "url": "git://github.com/tranducduong1994/shopping-list-miniapp.git"
   },
   "dependencies": {
     "ern-navigation": "1.2.4",
+    "lodash": "4.17.21",
     "react": "17.0.1",
     "react-native": "0.64.0"
   },
