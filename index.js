@@ -2,8 +2,17 @@
  * @format
  */
 
-import {AppRegistry} from 'react-native';
+import {AppNavigator} from 'ern-navigation';
 import App from './App';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => App);
+const appNavigator = new AppNavigator(
+  {
+    [appName]: App,
+  },
+  {
+    initialScreen: appName,
+  },
+);
+
+appNavigator.registerAll(appName);
